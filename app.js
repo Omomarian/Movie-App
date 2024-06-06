@@ -25,7 +25,7 @@ async function getMovieInfo(e) {
   try {
     //make an https request to the movie api
     const data = await fetch(
-      `http://www.omdbapi.com/?apikey=d54c66e3&t=${movieTitle}`
+      `https://www.omdbapi.com/?apikey=d54c66e3&t=${movieTitle}`
     );
     const movieInfo = await data.json();
     console.log(movieInfo);
