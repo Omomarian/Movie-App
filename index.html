@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="bg-blue-700 p-4">
+        <h1 class="text-white mx-auto max-w-[1100px] font-semibold text-2x">
+          My Movie Website
+        </h1>
+      </nav>
+      <section class="grid place-items-center">
+        <!--search box starts here-->
+        <form
+          class="bg-white flex border border-gray-700 p-2 rounded-xl max-w-[600px] w-full my-6"
+        >
+          <input
+            id="text_input_field"
+            class="w-full outline-none"
+            type="text"
+            placeholder="Search for a movie"
+          />
+          <button
+            id="search_btn"
+            class="bg-slate-900 text-white py-1 px-4 rounded-md border border-gray-800 hover:text-black hover:bg-white transition-all duration-300"
+          >
+            Search
+          </button>
+        </form>
+
+        <!--search box ends here-->
+
+        <!--Movie Info container-->
+        <section id="movie_info_container"></section>
+        <!--*************-->
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

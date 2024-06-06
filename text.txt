@@ -1,0 +1,15 @@
+step one
+-We need a form
+-step two
+-creating a skeleton for the design
+
+step three
+-styling the website
+*tracking is to put space inbetween the text
+
+step four
+connect our javascript
+1- target the input field and button
+2- add a click event to the search button
+3- create an asyn function to help us in fetching the movie information
+4- get the value that the user typed in the search input field
